@@ -1,2 +1,3 @@
 # rmsim
-Custom RM simulation code
+Simulate reverberation-mapped quasars for OzDES + DES to quantify lag recovery and uncertainties. 
+
