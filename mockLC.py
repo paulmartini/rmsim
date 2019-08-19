@@ -584,10 +584,10 @@ class create:
 
         # Define SFinfty and tau for each emission line
         
-        # use sqrt(2)*std of cont data
-        sfH = np.sqrt(2)*sig
-        sfMg = np.sqrt(2)*sig
-        sfC = np.sqrt(2)*sig 
+        # use 2*std of cont data
+        sfH = 2.*sig
+        sfMg = 2.*sig
+        sfC = 2.*sig 
         #sfH   = 10**( Asf  + Bsf*np.log10(LamH/4000)   + Csf*(absMag+23)  + Dsf*logmBH )
         #sfMg  = 10**( Asf  + Bsf*np.log10(LamMg/4000)  + Csf*(absMag+23)  + Dsf*logmBH )
         #sfC   = 10**( Asf  + Bsf*np.log10(LamC/4000)   + Csf*(absMag+23)  + Dsf*logmBH )
